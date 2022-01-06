@@ -10,5 +10,7 @@ namespace InterfaceExercise
         public int SteeringWheel { get; set;  }
         public string Make { get; set; }
         public string Model { get; set; }
+
+        void drive();
     }
 }

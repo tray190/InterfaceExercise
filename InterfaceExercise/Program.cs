@@ -40,10 +40,42 @@ namespace InterfaceExercise
 
             //Done Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their values
+
+            Car myFirstCar; 
             
-            var car = new Car();
-           var truck = new Truck();
+            Car myCar = new Car();
+            myCar.HasTrunk = true;
+            myCar.HasFourWheels = true;
+            myCar.HaveSmallBody = true;
+            myCar.SteeringWheel = 1;
+            myCar.Make = "nissan";
+            myCar.Model = "altima";
+            myCar.Logo = "nissan logo";
+            myCar.Partnerships = true;
+            
+
+            var truck = new Truck();
+            truck.SteeringWheel = 1;
+            truck.BedSize = 5.2;
+            truck.HasLongBody = true;
+            truck.HasFourWheels = true;
+            truck.Partnerships = true;
+            truck.Logo = "truck logo";
+            truck.Make = "ford";
+            truck.Model = "focus";
+            
+
             var suv = new SUV();
+            suv.SteeringWheel = 1;
+            suv.HasCorgoHoldTrunk = true;
+            suv.HasFourWheels = true;
+            suv.HasWideBody = true;
+            suv.Partnerships = true;
+            suv.Logo = "suv logo";
+            suv.Make = "lexus";
+            suv.Model = "rx300";
+
+           
         }
     }
 }
